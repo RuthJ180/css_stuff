@@ -14,72 +14,73 @@ body {
 }
 
 /********************************************/
-.wrapper1 {
+.wrapper1, .wrapper2, .wrapper3 {
 	display: inline-block;
 }
 
-.question1 {
+.question1, .question2, .question3 {
 	color: blue;
 	display: inline-block;
 }
 
-.answer1 {
+.answer1, .answer2, .answer3 {
 	color: green;
 }
 
-.wrapper1  .answer1 {
+.wrapper1  .answer1, .wrapper2  .answer2, .wrapper3  .answer3 {
 	position:relative;
 	visibility: hidden;
 }
 
-.wrapper1:hover .answer1 {
+.question1:hover + .answer1, .question2:hover + .answer2, .question3:hover + .answer3 {
 	visibility: visible;
 }
 
 /********************************************/
-.wrapper2 {
+.wrapper4 {
 	display: inline-block;
 }
 
-.question2 {
-	color: lightblue;
-	display: inline-block;
-}
-
-.answer2 {
-	color: green;
-}
-
-.wrapper2  .answer2 {
-	position:relative;
-	visibility: hidden;
-}
-
-.wrapper2:hover .answer2 {
-	visibility: visible;
-}
-
-/********************************************/
-.wrapper3 {
-	display: inline-block;
-}
-
-.question3 {
+.question4 {
 	color: blue;
 	display: inline-block;
 }
 
-.answer3 {
+.answer4{
 	color: green;
 }
 
-.wrapper3  .answer3 {
+.wrapper4  .answer4 {
 	position:relative;
 	visibility: hidden;
 }
 
-.wrapper3:hover .answer3 {
+.wrapper4:hover .answer4 {
 	visibility: visible;
 }
+
+/********************************************/
+.wrapper5 {
+	display: inline-block;
+}
+
+.question5 {
+	color: blue;
+	display: inline-block;
+}
+
+.answer5 {
+	color: green;
+}
+
+.wrapper5  .answer5 {
+	position:relative;
+	visibility: hidden;
+}
+
+.wrapper5:hover .answer5 {
+	visibility: visible;
+}
+
 
 
