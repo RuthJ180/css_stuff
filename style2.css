@@ -2,6 +2,15 @@
 
 body {
 	font-size: 1.8em;
+	background-color: lightblue;
+}
+
+.container {
+	margin: 5px 50px;
+	background-color: white;
+	width: auto;
+	padding-left: 20px;
+	padding-top: 1px;
 }
 
 .courier1 {
@@ -13,9 +22,14 @@ body {
 	font-style: italic;
 }
 
+li {
+	color: blue;
+}
+
 /********************************************/
 .wrapper1, .wrapper2, .wrapper3 {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .question1, .question2, .question3 {
@@ -37,48 +51,50 @@ body {
 }
 
 /********************************************/
-.wrapper4 {
+.wrapper4, .wrapper5, .wrapper6  {
 	display: inline-block;
+	vertical-align: top;
 }
 
-.question4 {
+.question4, .question5, .question6 {
 	color: blue;
 	display: inline-block;
 }
 
-.answer4{
+.answer4, .answer5, .answer6 {
 	color: green;
 }
 
-.wrapper4  .answer4 {
+.wrapper4  .answer4, .wrapper5  .answer5, .wrapper6  .answer6 {
 	position:relative;
 	visibility: hidden;
 }
 
-.wrapper4:hover .answer4 {
+.question4:hover + .answer4, .question5:hover + .answer5, .question6:hover + .answer6 {
 	visibility: visible;
 }
 
 /********************************************/
-.wrapper5 {
+.wrapper7, .wrapper8, .wrapper9  {
 	display: inline-block;
+	vertical-align: top;
 }
 
-.question5 {
+.question7, .question8, .question9 {
 	color: blue;
 	display: inline-block;
 }
 
-.answer5 {
+.answer7, .answer8, .answer9 {
 	color: green;
 }
 
-.wrapper5  .answer5 {
+.wrapper7  .answer7, .wrapper8  .answer8, .wrapper9  .answer9 {
 	position:relative;
 	visibility: hidden;
 }
 
-.wrapper5:hover .answer5 {
+.question7:hover + .answer7, .question8:hover + .answer8, .question9:hover + .answer9 {
 	visibility: visible;
 }
 
