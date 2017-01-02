@@ -1,0 +1,50 @@
+
+body {
+	font-size: 1.8em;
+	background-color: lightblue;
+}
+
+.container {
+	margin: 5px 50px;
+	background-color: white;
+	width: auto;
+	padding-left: 20px;
+	padding-top: 1px;
+}
+
+.courier1 {
+	font-family: courier;
+	font-size: 1em;
+}
+
+.italic1 {
+	font-style: italic;
+}
+
+li {
+	color: blue;
+}
+
+/********************************************/
+.wrapper1, .wrapper2, .wrapper3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.question1, .question2, .question3 {
+	color: blue;
+	display: inline-block;
+}
+
+.answer1, .answer2, .answer3 {
+	color: green;
+}
+
+.wrapper1  .answer1, .wrapper2  .answer2, .wrapper3  .answer3 {
+	position:relative;
+	visibility: hidden;
+}
+
+.question1:hover + .answer1, .question2:hover + .answer2, .question3:hover + .answer3 {
+	visibility: visible;
+}
